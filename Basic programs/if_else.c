@@ -19,5 +19,6 @@ int main()
         printf("You are a senior citizen.\n");
     }
     return 0;
+    
 
 }
