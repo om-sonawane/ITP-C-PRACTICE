@@ -16,7 +16,7 @@ int main()
     } else {
         printf("The greatest number is: %d\n", num3);
 
-        return 0;
-    }
-
+   }
+return 0;
+}
 
