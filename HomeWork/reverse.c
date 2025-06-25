@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int i = 1, n, remiander;
+    int  n, remiander;
 
     printf("Enter the number");
     scanf("%d", &n);

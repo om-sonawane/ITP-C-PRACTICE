@@ -8,17 +8,14 @@ int main() {
     return 0;
 }
 void fibonacci(int n) {
-    int a = 0, b = 1, next;
-    printf("Fibonacci sequence: ");
-    for (int i = 0; i < n; i++) {
-        if (i <= 1) {
-            next = i;
-        } else {
-            next = a + b;
-            a = b;
-            b = next;
-        }
-        printf("%d ", next);
+    int t1 = 0, t2 = 1, nextTerm;
+    printf("Fibonacci Series: ");
+    for (int i = 1; i <= n; ++i) {
+        printf("%d ", t1);
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
     }
     printf("\n");
 }
+
